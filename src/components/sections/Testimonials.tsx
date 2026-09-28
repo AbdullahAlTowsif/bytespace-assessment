@@ -8,11 +8,11 @@ export default function Testimonials() {
             {/* soft lime glow */}
             <div
                 aria-hidden
-                className="pointer-events-none absolute -right-20 top-10 h-96 w-96 rounded-full bg-lime/40 blur-3xl"
+                className="pointer-events-none absolute -right-20 top-10 h-96 w-96 rounded-full bg-lime/70 blur-3xl"
             />
             <div
                 aria-hidden
-                className="pointer-events-none absolute right-200 -top-20 h-60 w-60 rounded-full bg-lime/40 blur-3xl"
+                className="pointer-events-none absolute right-160 -top-20 h-60 w-60 rounded-full bg-lime/70 blur-3xl"
             />
             <div
                 aria-hidden
