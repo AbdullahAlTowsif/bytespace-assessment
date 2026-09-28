@@ -3,9 +3,17 @@ import { BarChart3 } from "lucide-react";
 import AvatarStack from "@/components/ui/AvatarStack";
 import type { Course } from "@/data/courses";
 
-export default function CourseCard({ course }: { course: Course }) {
+export default function CourseCard({
+    course,
+    className = "",
+}: {
+    course: Course;
+    className?: string;
+}) {
     return (
-        <article className="rounded-2xl border border-gray-200 bg-white p-3 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <article
+            className={`rounded-2xl border border-gray-200 bg-white p-3 shadow-sm transition hover:-translate-y-1 hover:shadow-lg ${className}`}
+        >
             {/* thumbnail + badges */}
             <div className="relative aspect-16/10 overflow-hidden rounded-xl">
                 <Image

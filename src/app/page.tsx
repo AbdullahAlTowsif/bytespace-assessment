@@ -2,6 +2,10 @@ import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 import LogoStrip from "@/components/sections/LogoStrip";
 import DiscoverCourses from "@/components/sections/DiscoverCourses";
+import LearningPaths from "@/components/sections/LearningPaths";
+import ProfessionalGrowth from "@/components/sections/ProfessionalGrowth";
+import CreateCourses from "@/components/sections/CreateCourses";
+import SoftGradient from "@/components/ui/SoftGradient";
 
 export default function Home() {
   return (
@@ -12,6 +16,11 @@ export default function Home() {
       </header>
       <LogoStrip />
       <DiscoverCourses />
+      <LearningPaths />
+      <SoftGradient>
+        <ProfessionalGrowth />
+        <CreateCourses />
+      </SoftGradient>
     </main>
   );
 }
