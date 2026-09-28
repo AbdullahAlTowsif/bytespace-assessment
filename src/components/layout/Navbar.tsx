@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <nav className="relative z-30 text-white">
-            <Container className="flex h-24 items-center justify-between">
+            <Container className="flex h-16 items-center justify-between">
                 <Link href="/">
                     <Image src="/images/logo.png" alt="ByteSpace" width={172} height={40} priority />
                 </Link>

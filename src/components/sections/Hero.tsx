@@ -7,12 +7,12 @@ import StudentsCard from "@/components/ui/StudentsCard";
 
 /* decorative 3D shapes: [file, position/size classes] */
 const shapes = [
-    ["lime-spring.png", "-left-24 top-24 w-36 lg:w-80"],
+    ["lime-spring.png", "-left-10 top-24 w-36 lg:w-76"],
     ["white-spring.png", "left-[15%] top-[300px] w-22 lg:w-48"],
-    ["white-ring.png", "left-76 z-20 bottom-0 w-32 lg:w-72"],
-    ["lime-cylinder.png", "-right-28 top-[130px] w-32 lg:w-80"],
+    ["white-ring.png", "left-46 z-20 bottom-0 w-32 lg:w-68"],
+    ["lime-cylinder.png", "-right-10 top-[40px] w-32 lg:w-76"],
     ["white-triangle.png", "right-[12%] top-[320px] w-22 lg:w-48"],
-    ["white-spring.png", "right-68 bottom-4 w-32 lg:w-72"],
+    ["white-spring.png", "right-33 bottom-4 w-32 lg:w-68"],
 ];
 
 export default function Hero() {
