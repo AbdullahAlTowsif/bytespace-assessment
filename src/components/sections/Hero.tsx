@@ -7,12 +7,12 @@ import StudentsCard from "@/components/ui/StudentsCard";
 
 /* decorative 3D shapes: [file, position/size classes] */
 const shapes = [
-    ["lime-spring.png", "-left-6 top-24 w-36 lg:w-80"],
+    ["lime-spring.png", "-left-24 top-24 w-36 lg:w-80"],
     ["white-spring.png", "left-[15%] top-[300px] w-22 lg:w-48"],
-    ["white-ring.png", "-left-4 bottom-0 w-32 lg:w-72"],
-    ["lime-cylinder.png", "-right-6 top-[130px] w-32 lg:w-80"],
+    ["white-ring.png", "left-76 z-20 bottom-0 w-32 lg:w-72"],
+    ["lime-cylinder.png", "-right-28 top-[130px] w-32 lg:w-80"],
     ["white-triangle.png", "right-[12%] top-[320px] w-22 lg:w-48"],
-    ["white-spring.png", "-right-4 bottom-4 w-32 lg:w-72"],
+    ["white-spring.png", "right-68 bottom-4 w-32 lg:w-72"],
 ];
 
 export default function Hero() {
@@ -67,13 +67,13 @@ export default function Hero() {
                         className="absolute bottom-0 left-1/2 w-60 -translate-x-1/2 md:w-95"
                     />
 
-                    <div className="absolute left-[4%] top-[6%] hidden rounded-xl bg-white px-4 py-3 text-left shadow-lg md:block">
+                    <div className="absolute left-[16%] top-[28%] hidden rounded-xl bg-white px-4 py-3 text-left shadow-lg md:block">
                         <p className="font-medium">UI/UX Design</p>
                         <p className="text-xs text-gray-500">200 Courses • 1000+ Students</p>
                     </div>
 
-                    <ProgressCard className="absolute right-[4%] top-[14%] hidden w-57.5 text-left md:block" />
-                    <StudentsCard className="absolute bottom-[8%] left-0 hidden text-left md:block" />
+                    <ProgressCard className="absolute right-[16%] top-[12%] hidden w-57.5 text-left md:block" />
+                    <StudentsCard className="absolute bottom-[10%] left-36 hidden text-left md:block" />
                 </div>
             </Container>
         </section>

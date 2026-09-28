@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <nav className="relative z-30 text-white">
-            <Container className="flex h-30 items-center justify-between">
+            <Container className="flex h-24 items-center justify-between">
                 <Link href="/">
                     <Image src="/images/logo.png" alt="ByteSpace" width={172} height={40} priority />
                 </Link>
@@ -55,7 +55,7 @@ export default function Navbar() {
 
             {/* mobile menu */}
             {open && (
-                <div className="absolute inset-x-0 top-25 mx-5 rounded-2xl bg-white p-5 text-ink shadow-xl md:hidden">
+                <div className="absolute inset-x-0 top-20 mx-5 rounded-2xl bg-white p-5 text-ink shadow-xl md:hidden">
                     <ul className="flex flex-col gap-4">
                         {links.map((l) => (
                             <li key={l.label}><Link href={l.href}>{l.label}</Link></li>
