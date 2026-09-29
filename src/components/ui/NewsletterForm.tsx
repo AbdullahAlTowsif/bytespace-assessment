@@ -1,13 +1,13 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { SubmitEvent, useState } from "react";
 import Button from "@/components/ui/Button";
 
 export default function NewsletterForm() {
     const [email, setEmail] = useState("");
     const [sent, setSent] = useState(false);
 
-    function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    function handleSubmit(e: SubmitEvent) {
         e.preventDefault();
         if (!email.trim()) return;
         setSent(true);
